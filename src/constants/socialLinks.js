@@ -1,6 +1,7 @@
 import React from "react"
 import {
   FaGithubSquare,
+  FaFacebookSquare,
   FaLinkedin,
   FaDocker,
 } from "react-icons/fa"
@@ -8,18 +9,23 @@ import {
 const data = [
   {
     id: 1,
-    icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
-    url: "https://github.com/XiaozhouCui",
+    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    url: "https://www.linkedin.com/in/xiaozhou-cui-9744a535/",
   },
   {
     id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.linkedin.com/in/xiaozhou-cui-9744a535/",
+    icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
+    url: "https://github.com/XiaozhouCui",
   },
   {
     id: 3,
     icon: <FaDocker className="social-icon"></FaDocker>,
     url: "https://hub.docker.com/u/xiaozhoucui",
+  },
+  {
+    id: 4,
+    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
+    url: "https://facebook.com",
   },
 ]
 const links = data.map(link => {
