@@ -905,6 +905,7 @@ About Page
   margin-right: 0;
 }
 .about-text p {
+  text-align: justify;
   line-height: 2;
 }
 .stack-container {
