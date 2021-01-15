@@ -12,7 +12,7 @@ module.exports = {
     twitterUsername: "@Joe_Cui",
     image: "/twitter-img.jpg",
     // siteUrl is used by "gatsby-plugin-sitemap" to auto create site map for SEO
-    siteUrl: "https://joe-portfolio-gatsby.netlify.app",
+    siteUrl: "https://joe-portfolio-gatsby.netlify.app", // NO forward slash "/" at the end of siteUrl
   },
   plugins: [
     `gatsby-transformer-sharp`,
