@@ -3,6 +3,7 @@ import {
   FaGithubSquare,
   FaFacebookSquare,
   FaLinkedin,
+  FaHome,
   FaDocker,
 } from "react-icons/fa"
 
@@ -24,6 +25,11 @@ const data = [
   },
   {
     id: 4,
+    icon: <FaHome className="social-icon"></FaHome>,
+    url: "https://www.joesdemosite.com/",
+  },
+  {
+    id: 5,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
     url: "https://facebook.com",
   },
