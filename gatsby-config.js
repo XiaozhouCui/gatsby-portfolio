@@ -11,6 +11,7 @@ module.exports = {
     author: "@Joe_Cui",
     twitterUsername: "@Joe_Cui",
     image: "/twitter-img.jpg",
+    // siteUrl is used by "gatsby-plugin-sitemap" to auto create site map for SEO
     siteUrl: "https://joe-portfolio-gatsby.netlify.app",
   },
   plugins: [
