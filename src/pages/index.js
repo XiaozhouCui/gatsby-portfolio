@@ -17,7 +17,7 @@ export default ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <Hero />
-      <Services />
+      {/* <Services /> */}
       <Jobs />
       <Projects projects={projects} title="featured projects" showLink />
       <Blogs blogs={blogs} title="blog" showLink />
@@ -27,7 +27,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   {
-    allStrapiProjects(filter: { featured: { eq: true } }) {
+    allStrapiProjects(filter: { featured: { eq: true } }, sort: { fields: id, order: DESC }) {
       nodes {
         github
         id
